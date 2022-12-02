@@ -1,0 +1,28 @@
+{
+  "lorem": {
+    "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "long": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Porttitor rhoncus dolor purus non. Tempus urna et pharetra pharetra massa massa ultricies mi quis. Neque sodales ut etiam sit amet nisl purus in. Posuere urna nec tincidunt praesent semper feugiat nibh sed. Porta lorem mollis aliquam ut porttitor leo a. Fringilla est ullamcorper eget nulla. Massa sed elementum tempus egestas sed sed. Est ante in nibh mauris cursus mattis molestie. Commodo nulla facilisi nullam vehicula ipsum a. Pulvinar elementum integer enim neque volutpat ac tincidunt vitae. Porttitor lacus luctus accumsan tortor posuere. Aliquet eget sit amet tellus cras adipiscing enim eu turpis. Volutpat diam ut venenatis tellus in metus vulputate eu. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Dignissim sodales ut eu sem integer vitae justo eget. Massa id neque aliquam vestibulum morbi blandit cursus risus at. Risus pretium quam vulputate dignissim suspendisse in est ante in. Vel pretium lectus quam id leo in. Ac odio tempor orci dapibus ultrices in iaculis. Leo a diam sollicitudin tempor id. Varius duis at consectetur lorem donec massa. Auctor augue mauris augue neque gravida in fermentum et sollicitudin. Habitant morbi tristique senectus et netus. Penatibus et magnis dis parturient. Lorem ipsum dolor sit amet consectetur adipiscing elit. Ac turpis egestas maecenas pharetra convallis posuere morbi leo. Sit amet commodo nulla facilisi nullam. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Enim nunc faucibus a pellentesque sit amet porttitor. Sem nulla pharetra diam sit amet nisl suscipit adipiscing. Lorem mollis aliquam ut porttitor. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Sit amet dictum sit amet. Habitant morbi tristique senectus et netus et malesuada fames ac. Massa tempor nec feugiat nisl. Amet mattis vulputate enim nulla aliquet porttitor. Nunc consequat interdum varius sit amet mattis vulputate enim. Leo urna molestie at elementum eu. Aliquet sagittis id consectetur purus ut faucibus pulvinar. Turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Et tortor at risus viverra adipiscing at in tellus integer. Tempus imperdiet nulla malesuada pellentesque elit eget. Eget egestas purus viverra accumsan in. Nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue. Nulla facilisi morbi tempus iaculis urna id. A diam maecenas sed enim ut sem viverra. In nisl nisi scelerisque eu ultrices vitae auctor. Dui accumsan sit amet nulla facilisi morbi tempus. Faucibus scelerisque eleifend donec pretium vulputate sapien. Gravida quis blandit turpis cursus in hac habitasse platea. In nulla posuere sollicitudin aliquam ultrices sagittis orci. Semper viverra nam libero justo laoreet. Amet est placerat in egestas erat imperdiet. Ultricies tristique nulla aliquet enim tortor at. Habitant morbi tristique senectus et netus et malesuada fames ac. Nunc faucibus a pellentesque sit amet. Quis auctor elit sed vulputate mi sit amet mauris. Nulla facilisi nullam vehicula ipsum. Dolor purus non enim praesent elementum facilisis leo vel. Tristique magna sit amet purus gravida quis blandit turpis cursus. At augue eget arcu dictum. Varius quam quisque id diam vel quam. Felis imperdiet proin fermentum leo vel. Eros in cursus turpis massa tincidunt dui. Eget est lorem ipsum dolor sit amet consectetur adipiscing. Accumsan in nisl nisi scelerisque eu ultrices vitae. Nec feugiat in fermentum posuere urna nec tincidunt praesent. Amet facilisis magna etiam tempor orci eu lobortis elementum. Nam at lectus urna duis convallis convallis tellus id interdum. Et egestas quis ipsum suspendisse ultrices. Urna porttitor rhoncus dolor purus. Ut eu sem integer vitae. Nunc mi ipsum faucibus vitae aliquet. Vulputate eu scelerisque felis imperdiet proin fermentum leo. Ante in nibh mauris cursus mattis molestie a iaculis at. Eget velit aliquet sagittis id consectetur purus ut faucibus. Id aliquet lectus proin nibh nisl condimentum id venenatis a."
+  },
+  "home": {
+    "items": [
+      {
+        "label": "Navigation 1"
+      },
+      {
+        "label": "Navigation 2"
+      },
+      {
+        "label": "Navigation 3"
+      },
+      {
+        "label": "Navigation 4"
+      },
+      {
+        "label": "Navigation 5"
+      },
+      {
+        "label": "Navigation 6"
+      }
+    ]
+  }
+}
