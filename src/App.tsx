@@ -1,119 +1,73 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * Generated with the TypeScript template
- * https://github.com/react-native-community/react-native-template-typescript
- *
- * @format
- */
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import {NavigationContainer} from '@react-navigation/native';
+import Icon from 'react-native-vector-icons/Feather';
+import React, {Fragment} from 'react';
+import {HomeScreen} from './home';
+import {DetailsScreen} from './details';
+import {Text} from './components';
+import {Image, StyleSheet, View} from 'react-native';
 
-import React, {type PropsWithChildren} from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
-
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-
-const Section: React.FC<
-  PropsWithChildren<{
-    title: string;
-  }>
-> = ({children, title}) => {
-  const isDarkMode = useColorScheme() === 'dark';
-  return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
-    </View>
-  );
-};
+const Stack = createNativeStackNavigator();
 
 const App = () => {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
   return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-        backgroundColor={backgroundStyle.backgroundColor}
-      />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
-        <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
-          </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
-          </Section>
-          <LearnMoreLinks />
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+    <NavigationContainer>
+      <Stack.Navigator
+        initialRouteName="Home"
+        screenOptions={{
+          headerBackground: () => (
+            <View>
+              <Image
+                style={styles.headerBackground}
+                source={require('./assets/images/background.png')}
+              />
+              <Image
+                style={styles.headerBackground}
+                source={require('./assets/images/clouds.png')}
+              />
+            </View>
+          ),
+          headerTitleAlign: 'center',
+          headerTitle: () => <Text style={styles.header}>Lorem ipsum</Text>,
+          headerLeft: () => (
+            <Fragment>
+              <Icon name="chevron-left" size={11} color="#000" />
+              <Text style={styles.leftHead}>1/4</Text>
+            </Fragment>
+          ),
+          headerRight: () => (
+            <Icon.Button
+              name="x"
+              backgroundColor="transparent"
+              size={11}
+              color="#000"
+            />
+          ),
+        }}>
+        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="Details" component={DetailsScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 };
 
 const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
+  header: {
     fontWeight: '600',
+    fontFamily: 'Literata-Regular',
+    color: '#000',
+    fontSize: 16,
+    lineHeight: 32,
+    letterSpacing: 1,
   },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
+  headerBackground: {
+    width: '100%',
   },
-  highlight: {
-    fontWeight: '700',
+  leftHead: {
+    fontSize: 14,
+    fontFamily: 'Inter-SemiBold',
+    lineHeight: 20,
+    color: '#000',
   },
 });
 
